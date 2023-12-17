@@ -26,15 +26,15 @@ body{
     color: #fff;
     position: relative;
 }
-.navbar-nav .nav-link::after{
+.navbar-nav #link::after{
     content: "";
     position: absolute;
     width: 0;
     bottom: 0;
     left: 0;
-    transition: 1s;
+    transition: .7s;
 }
-.navbar-nav .nav-link:hover::after{
+.navbar-nav #link:hover::after{
     border-bottom: 3px solid #ff914d;
     width: 100%;
 }
@@ -135,4 +135,7 @@ body{
     right: 75px;
     top: 90px;
     transform: rotate(-10deg);
+}
+.modal-dialog{
+    max-width: 100% !important;
 }
