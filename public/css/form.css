@@ -25,7 +25,8 @@
 .forms .row .button:hover, .button:hover{
     opacity: 1;
 }
-.forms input, .form-select{
+.forms input,
+.form-select{
     border: 0;
     border-radius: 5px;
     /* border-left: 2px solid #ff914d;
@@ -34,7 +35,9 @@
     /* border: 2px solid #ff914d; */
     text-transform: uppercase;
 }
-
+.forms input[type=checkbox]{
+    border: 2px solid black;
+}
 input:focus{
     outline: 2px solid #ff914d !important;
     /* outline: none; */
@@ -49,10 +52,6 @@ input:focus{
     display: none;
     position: absolute;
     bottom: 0;
-}
-#table *{
-    /* display: block; */
-     border-style: none !important;
 }
 
 #table thead th{
@@ -88,4 +87,14 @@ input:focus{
 .update{
     color: #0fe789;
     font-size: 20px;
+}
+.blockBtn{
+    font-size: 20px !important;
+}
+/* copy text from input */
+.copy{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
