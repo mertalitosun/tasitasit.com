@@ -22,7 +22,7 @@
     border: none;
 }
 
-.forms .row .button, .button:hover{
+.forms .row .button:hover, .button:hover{
     opacity: 1;
 }
 .forms input, .form-select{
@@ -76,9 +76,16 @@ input:focus{
 .update, .delete{
     font-size: 26px;
 }
-.update{
+.edit, .delete{
+    font-size: 30px !important;
+}
+.edit{
     color: rgb(9, 129, 234);
 }
 .delete{
     color: red;
+}
+.update{
+    color: #0fe789;
+    font-size: 20px;
 }

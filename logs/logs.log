@@ -495,3 +495,16 @@
   level: 'error',
   timestamp: '17-12-2023  23:07:23'
 }
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/cargo-types.ejs:130\n' +
+    '    128|                         <div class="row">\r\n' +
+    '    129|                             <div class="col-12">\r\n' +
+    ' >> 130|                                 <input type="text" class="form-control text-center" name="vehicleTypeName" placeholder="Araç Türünü Girin" value="<%= vehicleType.vehicleTypeName %>">\r\n' +
+    '    131|                             </div>\r\n' +
+    '    132|                         </div>\r\n' +
+    '    133|                         <div class="row">  \r\n' +
+    '\n' +
+    'vehicleType is not defined',
+  level: 'error',
+  timestamp: '18-12-2023  01:49:02'
+}
