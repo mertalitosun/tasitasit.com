@@ -6,7 +6,7 @@
 }
 .btn-create{
     background: linear-gradient(30deg,#304D30,#88AB8E );
-    border-radius: 30px;
+    border-radius: 15px;
     color: #fff !important;
     transition: .1s;
 }

@@ -101,7 +101,17 @@
                                             <% if (user.isBlocked) { %>
                                                 <form action="/admin/user/remove-block/<%= user.id %>" method="post">
                                                     <input type="hidden" name="userId" value="<%= user.id %>">
-                                                    <button type="submit" class="btn btn-warning blockBtn"><i class="bi bi-person-fill-x"></i> Engeli Kaldır</button>
+                                                    <button type="submit" class="btn removeBlock">
+                                                        <div class="row d-flex flex-column align-items-center">
+                                                            <div class="col-2">
+                                                                <i class="bi bi-person-fill-x text-center" style="font-size: 25px;"></i>
+                                                            </div>
+                                                            <div class="col-10" style="width: 100% !important;">
+                                                                Engeli Kaldır
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                    
                                                 </form>
                                             <% } %>
                                             <% if (!user.isBlocked) { %>                                             
@@ -110,7 +120,6 @@
                                                     <button type="submit" class="btn delete blockBtn"><i class="bi bi-person-dash"></i> Engelle</button>
                                                 </form>
                                             <% } %>
-                                            
                                         </div>
                                     </td>
                                 </tr>

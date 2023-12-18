@@ -33,7 +33,6 @@
     border-right: 2px solid #ff914d; */
     border-bottom: 2px solid #ff914d;
     /* border: 2px solid #ff914d; */
-    text-transform: uppercase;
 }
 .forms input[type=checkbox]{
     border: 2px solid black;
@@ -42,7 +41,6 @@ input:focus{
     outline: 2px solid #ff914d !important;
     /* outline: none; */
 }
-
 
 #arrowDown{
     margin-top: 100px !important;
@@ -87,6 +85,10 @@ input:focus{
 .update{
     color: #0fe789;
     font-size: 20px;
+}
+.removeBlock{
+    color: #FF9800;
+    font-size: 15px !important;
 }
 .blockBtn{
     font-size: 20px !important;
