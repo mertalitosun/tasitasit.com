@@ -534,3 +534,3689 @@
   level: 'error',
   timestamp: '18-12-2023  18:19:04'
 }
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  00:13:15'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  00:14:25'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:27\n' +
+    '    25|                             <label for="plate" class="col-sm-2 col-form-label">Plaka:</label>\r\n' +
+    '    26|                             <div class="col-sm-10">\r\n' +
+    ' >> 27|                               <input type="text" class="form-control" id="plate" name="plate" placeholder="Url adresini girin" value="<%= vehicle.plate %>">\r\n' +
+    '    28|                             </div>\r\n' +
+    '    29|                         </div>\r\n' +
+    '    30|                         <div class="mb-3 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'plate')",
+  level: 'error',
+  timestamp: '19-12-2023  00:14:53'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:27\n' +
+    '    25|                             <label for="plate" class="col-sm-2 col-form-label">Plaka:</label>\r\n' +
+    '    26|                             <div class="col-sm-10">\r\n' +
+    ' >> 27|                               <input type="text" class="form-control" id="plate" name="plate" placeholder="Url adresini girin" value="<%= vehicle.plate %>">\r\n' +
+    '    28|                             </div>\r\n' +
+    '    29|                         </div>\r\n' +
+    '    30|                         <div class="mb-3 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'plate')",
+  level: 'error',
+  timestamp: '19-12-2023  00:15:09'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:19:34'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:19:34'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:19:38'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:19:38'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:19:43'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:20:04'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:20:31'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:20:33'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:21:05'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  01:21:08'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:21:08'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  01:21:16'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:21:16'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:21:18'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:21:18'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:21:19'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:22:48'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:22:48'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:24:19'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:24:19'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:24:24'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:24:24'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:24:27'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:24:48'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:24:49'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:24:49'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:24:50'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:25:42'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:25:42'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:25:43'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:25:43'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:25:45'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:25:50'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:25:51'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:06'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:11'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:11'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:12'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:25'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:26'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:26'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:28'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:32'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:32'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:26:35'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:33:15'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:33:15'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:33:21'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:37:06'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:37:07'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:38:51'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:38:51'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:43:03'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:43:03'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:43:12'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:43:12'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:43:13'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:43:13'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:43:36'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:43:36'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:43:45'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:43:45'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:44:15'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:44:15'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:44:23'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:44:23'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:44:26'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:44:26'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:45:27'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:45:27'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:47:51'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:47:51'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:48:22'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:48:22'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:48:29'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:48:29'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:49:19'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:49:19'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:49:45'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:49:45'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:49:46'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:49:46'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:50:23'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:50:23'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:50:29'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:50:29'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:50:30'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:50:30'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:51:10'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:51:10'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:51:26'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:51:26'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:52:01'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:52:01'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:52:54'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:52:54'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:53:38'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:53:38'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:55:17'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:55:17'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:57:29'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:57:29'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:58:30'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  01:58:30'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:00:47'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:00:47'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:00:56'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:00:56'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:01:38'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:01:38'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:01:58'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:01:58'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:02:21'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:02:21'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:02:57'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:02:57'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:03:28'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:03:28'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:04:00'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:04:00'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:04:22'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:04:22'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:04:39'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:04:39'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:05:12'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:05:12'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:05:58'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:05:58'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:08:37'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:08:37'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:08:43'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:08:43'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:09:01'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:09:01'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:10:06'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:10:06'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:10:28'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:10:28'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:10:48'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:10:48'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:11:40'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:11:40'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:11:43'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:11:43'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:12:44'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:12:44'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:13:04'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:13:05'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:13:43'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:13:43'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:14:08'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:14:09'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:14:27'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:14:27'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:15:39'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:15:46'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:15:47'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:15:49'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:15:55'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:15:56'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:16:16'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:16:16'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:17:35'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/errors/404.ejs:4\n' +
+    '    2| <html lang="en">\n' +
+    '    3| <head>\n' +
+    " >> 4|     <%- include('../partials/head') %>\n" +
+    '    5| </head>\n' +
+    '    6| <body style="background-color: #FEF7E4;">\n' +
+    '    7|     \n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasiTasit.com/views/partials/head.ejs:3\n' +
+    '    1| <meta charset="UTF-8">\r\n' +
+    '    2| <meta name="viewport" content="width=device-width, initial-scale=1.0">\r\n' +
+    ' >> 3| <title><%= title %> || tasitasit.com</title>\r\n' +
+    '    4| <!-- BOOTSTRAP -->\r\n' +
+    '    5| <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.min.css">\r\n' +
+    '    6| <!-- CSS -->\r\n' +
+    '\n' +
+    'title is not defined',
+  level: 'error',
+  timestamp: '19-12-2023  02:17:35'
+}
+{
+  message: 'Failed to lookup view "admin/vehicle-type-edit" in views directory "/Users/mertalitosun/Desktop/tasiTasit.com/views"',
+  level: 'error',
+  timestamp: '19-12-2023  02:21:35'
+}
+{
+  message: 'Failed to lookup view "admin/vehicle-type-edit" in views directory "/Users/mertalitosun/Desktop/tasiTasit.com/views"',
+  level: 'error',
+  timestamp: '19-12-2023  02:21:38'
+}
+{
+  message: 'Failed to lookup view "admin/vehicle-type-edit" in views directory "/Users/mertalitosun/Desktop/tasiTasit.com/views"',
+  level: 'error',
+  timestamp: '19-12-2023  02:21:45'
+}
+{
+  message: 'missing ) after argument list in /Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-type-edit.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '19-12-2023  02:23:17'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:32:41'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:33:04'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:33:29'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:33:35'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:43:45'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:48:25'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:49:39'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:49:42'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:49:42'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:53:59'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:54:28'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:54:42'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:56:32'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  02:57:20'
+}
