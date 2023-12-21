@@ -15,7 +15,7 @@
 }
 .forms .row .button, .button{
     background: linear-gradient(90deg,#ffde59,#ff914d);
-    padding: 10px 30px;
+    padding: 8px 20px;
     border-radius: 50px;
     opacity: .8;
     transition: .5s;
@@ -25,14 +25,13 @@
 .forms .row .button:hover, .button:hover{
     opacity: 1;
 }
+.forms .row .form-control{
+    text-align: center;
+}
 .forms input,
 .form-select{
-    border: 0;
-    border-radius: 5px;
-    /* border-left: 2px solid #ff914d;
-    border-right: 2px solid #ff914d; */
-    border-bottom: 2px solid #ff914d;
-    /* border: 2px solid #ff914d; */
+    border-radius: 20px;
+    border-color: #FF9800;
 }
 .forms input[type=checkbox]{
     border: 2px solid black;
@@ -52,6 +51,13 @@ input:focus{
     bottom: 0;
 }
 
+#table, #table tr, #table td, #table th{
+    border: 1px solid #F2F1EB;
+    text-align: center;
+}
+#table thead th{
+    background-color: #cfe2ff !important;
+}
 #table thead th{
     text-align: center;
 }
@@ -60,21 +66,30 @@ input:focus{
     align-items: center;
     vertical-align: middle;
 }
-#table .left-text{
-    width: 300px;
+#table ul li{
     text-align: left;
 }
+
+/* Butonlar */
+
 .btns{
     display: flex;
     align-items:center;
     justify-content: space-around;
 }
 
-.update, .delete{
-    font-size: 26px;
+.return{
+    background-color: #fff;
+    border: none;
+    color: #B6BBC4;
+    opacity: .5;
 }
-.edit, .delete{
-    font-size: 30px !important;
+.return:hover{
+    opacity: 1;
+}
+
+.edit, .delete, .return{
+    font-size: 20px !important;
 }
 .edit{
     color: rgb(9, 129, 234);
@@ -83,16 +98,23 @@ input:focus{
     color: red;
 }
 .update{
-    color: #0fe789;
+    background-color: #65B741;
+    color: #fff;
     font-size: 20px;
+    border-radius: 20px;
+    padding: 0.375rem 0.75rem;
+}
+.update:hover{
+    background-color: #9ADE7B;
 }
 .removeBlock{
     color: #FF9800;
     font-size: 15px !important;
 }
 .blockBtn{
-    font-size: 20px !important;
+    font-size: 15px !important;
 }
+
 /* copy text from input */
 .copy{
     cursor: pointer;

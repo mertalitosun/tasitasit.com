@@ -13,7 +13,7 @@
                 <div class="table-responsive" id="tableResponsive">
                     <!-- driver-table -->
                 <table class="table table-striped table-hover mt-5" id="table">
-                    <thead class="table-primary">
+                    <thead>
                         <tr>
                             <th>Şöför Kodu</th>
                             <th style="width: 80px;">Fotoğraf</th>
@@ -73,7 +73,7 @@
                                                         </table>
                                                     </div>
                                                     <div class="modal-footer">
-                                                        <button type="button" class="button px-5" data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="return" data-bs-dismiss="modal">Vazgeç</button>
                                                         <form action="/admin/driver/delete/<%= driver.id %>" method="post">
                                                             <input type="hidden" name="driverId" value="<%= driver.id %>">
                                                             <input type="hidden" name="driverImg" value="<%= driver.driverImg %>">

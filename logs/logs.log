@@ -4220,3 +4220,415 @@
   level: 'error',
   timestamp: '19-12-2023  02:57:20'
 }
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED ::1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3306,
+    fatal: true
+  },
+  level: 'error',
+  message: 'Unable to connect to the database!!! connect ECONNREFUSED ::1:3306',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306\n' +
+    '    at ConnectionManager.connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async ConnectionManager._connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32\n' +
+    '    at async ConnectionManager.getConnection (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:305:26\n' +
+    '    at async Sequelize.authenticate (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:457:5)\n' +
+    '    at async connectMysql (/Users/mertalitosun/Desktop/tasiTasit.com/startup/db.js:20:9)',
+  timestamp: '19-12-2023  11:25:37'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  13:59:27'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  13:59:49'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  14:00:05'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  14:00:44'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  14:01:04'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  14:01:38'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  14:18:19'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  14:20:36'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  14:20:58'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/admin/vehicle-edit.ejs:18\n' +
+    '    16|                         <div class="mb-3 row">\r\n' +
+    '    17|                             <label for="vehicleImg" class="col-sm-2 col-form-label">Araç Resmi:</label>\r\n' +
+    ' >> 18|                             <img src="/static/images/<%= vehicle.vehicleImg %>" alt="<%= vehicle.vehicleImg %>" class="col-sm-2">\r\n' +
+    '    19|                             <div class="col-sm-8">\r\n' +
+    '    20|                             <input type="file" class="form-control" id="vehicleImg" name="vehicleImg">\r\n' +
+    '    21|                             <input type="hidden" name="vehicleImg" value="<%= vehicle.vehicleImg %>">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'vehicleImg')",
+  level: 'error',
+  timestamp: '19-12-2023  19:19:20'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  level: 'error',
+  message: 'Unable to connect to the database!!! connect ECONNREFUSED 127.0.0.1:3306',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306\n' +
+    '    at ConnectionManager.connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async ConnectionManager._connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32\n' +
+    '    at async ConnectionManager.getConnection (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:305:26\n' +
+    '    at async Sequelize.authenticate (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:457:5)\n' +
+    '    at async connectMysql (/Users/mertalitosun/Desktop/tasiTasit.com/startup/db.js:20:9)',
+  timestamp: '22-12-2023  00:08:48'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:19'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:19'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:19'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:20'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:29'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:31'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:31'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:31'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:31'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:43'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:43'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:43'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:43'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:44'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:44'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:44'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:44'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:45'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:45'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:45'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:45'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:49'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:49'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:49'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:49'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:49'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:51'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:51'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:51'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '22-12-2023  00:09:51'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  level: 'error',
+  message: 'Unable to connect to the database!!! connect ECONNREFUSED 127.0.0.1:3306',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306\n' +
+    '    at ConnectionManager.connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async ConnectionManager._connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32\n' +
+    '    at async ConnectionManager.getConnection (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:305:26\n' +
+    '    at async Sequelize.authenticate (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:457:5)\n' +
+    '    at async connectMysql (/Users/mertalitosun/Desktop/tasiTasit.com/startup/db.js:20:9)',
+  timestamp: '22-12-2023  00:10:07'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  level: 'error',
+  message: 'Unable to connect to the database!!! connect ECONNREFUSED 127.0.0.1:3306',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306\n' +
+    '    at ConnectionManager.connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async ConnectionManager._connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32\n' +
+    '    at async ConnectionManager.getConnection (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:305:26\n' +
+    '    at async Sequelize.authenticate (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:457:5)\n' +
+    '    at async connectMysql (/Users/mertalitosun/Desktop/tasiTasit.com/startup/db.js:20:9)',
+  timestamp: '22-12-2023  00:10:34'
+}

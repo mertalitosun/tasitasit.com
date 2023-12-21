@@ -20,7 +20,7 @@
                                     </div>
                                 </div>
                                 <div class="row">  
-                                    <button type="submit" class="button px-5 view">Ekle</button>
+                                    <button type="submit" class="button view">Ekle</button>
                                 </div>
                             </form>
         
@@ -44,7 +44,7 @@
                         <!-- Table -->
                         <div class="table-responsive" id="table-responsive">
                             <table class="table table-hover table-striped  table-light mt-5" id="table">
-                                <thead class="table-primary">
+                                <thead>
                                         <th>ID</th>
                                         <th>Araç Türü</th>
                                         <th>Kayıtlı Araç Sayısı</th>
@@ -54,9 +54,9 @@
                                 <tbody>
                                     <% vehicleTypes.forEach(vehicleType => { %>
                                         <tr>
-                                            <td class="left-text"><%= vehicleType.vehicleTypeCode%></td>
-                                            <td class="left-text"><%= vehicleType.vehicleTypeName %></td>
-                                            <td class="left-text"><%= vehicleType.vehicles.length %></td>
+                                            <td><%= vehicleType.vehicleTypeCode%></td>
+                                            <td><%= vehicleType.vehicleTypeName %></td>
+                                            <td><%= vehicleType.vehicles.length %></td>
                                             <td>
                                                 <div class="btns">
                                                     <a href="/admin/vehicle-type/edit/<%= vehicleType.url %>" class="btn edit"><i class="bi bi-pencil-square"></i></a>
@@ -89,7 +89,7 @@
                                                                     </table>
                                                                 </div>
                                                                 <div class="modal-footer">
-                                                                    <button type="button" class="button px-5" data-bs-dismiss="modal">Close</button>
+                                                                    <button type="button" class="return" data-bs-dismiss="modal">Vazgeç</button>
                                                                     <form action="/admin/vehicle-type/delete/<%= vehicleType.id %>" method="post">
                                                                         <input type="hidden" name="vehicleTypeId" value="<%= vehicleType.id%>">
                                                                         <button type="submit" class="btn delete"><i class="bi bi-trash"></i></button>

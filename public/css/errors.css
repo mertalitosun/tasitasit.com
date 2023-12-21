@@ -17,7 +17,21 @@ body{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
 }
-.main{
+
+.not-found{
+    background: url(/static/images/404.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.server-error{
     background: url(/static/images/500.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -36,23 +50,13 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+.main .content h1{
+    color: #D13123;
+}
 .main .content-desc{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.main .content h1{
-    color: #D13123;
+    font-size: 20px;
 }
 
-.button{
-    background: linear-gradient(90deg,#ffde59,#ff914d);
-    padding: 10px 30px;
-    border-radius: 50px;
-    opacity: .8;
-    transition: .5s;
-}
-.button:hover{
-    opacity: 1;
-    color: #fff;
-}

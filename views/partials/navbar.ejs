@@ -58,4 +58,29 @@
           </ul>
       </div>
     </div>
+    <!-- Example split danger button -->
+    <div class="btn-group">
+      <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="link" aria-current="page">
+        <%= fullname %>
+      </a>
+      <ul class="dropdown-menu">
+        <li>    
+          <a class="dropdown-item" id="link" aria-current="page" href="/admin/vehicle-types">Araç Türleri</a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" id="link" aria-current="page" href="/admin/cargo-types">Kargo Türleri</a>
+        </li>
+        <li>
+          <a class="dropdown-item" id="link" aria-current="page" href="/admin/roles">Roller</a>
+        </li>
+        <li>
+          <a class="dropdown-item" id="link" aria-current="page" href="/admin/users">Kullanıcılar</a>
+        </li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="/auth/logout">Çıkış Yap</a></li>
+      </ul>
+    </div>
+
 </nav>
+
