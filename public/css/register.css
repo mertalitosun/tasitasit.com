@@ -3,28 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-.forms .card .header-register{
-    top: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 10000;
-}
-.forms .card .header-register .nav-register{
-    display: flex;
-    gap: 10px;
-}
 
-.forms .card .header-register .nav-register .a-register{
-    position: relative;
-    text-decoration: none;
+.forms .card .card-header{
+    background-color: #FF9800;
+    vertical-align:middle ;
 }
-.forms .card .header-register .nav-register .indicator{
+.forms .card .card-header h5{
+    color: #fff; 
+    margin: 0 !important;
+}
+.forms .card .card-body .nav-pills .nav-link{
+    color: #000;
+    position: relative;
+}
+.forms .card .card-body .nav-pills .nav-link::after{
+    content: "";
     position: absolute;
-    width: 80px;
-    height: 60px;
-    background-color: green;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    transition: 1s;
+}
+.forms .card .card-body .nav-pills .nav-link.active{
+    background-color: #fff !important;
+    border-bottom: 1px solid #FF9800;
+}
+.forms .card .card-body .nav-pills .nav-link:hover::after{
+    border-bottom: 1px solid #FF9800;
+    width: 100%;
+}
+.forms .card .card-body .nav-pills .nav-link.active:hover::after{
+    border-bottom: none;
 }

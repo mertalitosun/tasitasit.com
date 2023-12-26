@@ -8,13 +8,15 @@
     <div class="container mt-5">
         <div class="row">
             <%- include('../partials/alert') %>
-            <div class="col-md-12 d-flex justify-content-center mt-3 ">
-                <div class="card text-bg-light mb-3" style="width: 22rem;">
-                    <div class="card-header text-center bg-primary"><h5 class="text-light">Üye Ol</h5></div>
+            <div class="forms">
+                <div class="card" id="card">
+                    <div class="card-header">
+                        <h5>ÜYE OL</h5>
+                    </div>
                     <div class="card-body">
                         <form method="post">
                             <div class="mb-3 row">
-                                <ul class="nav nav-pills nav-fill border-bottom">
+                                <ul class="nav nav-pills nav-fill">
                                     <li class="nav-item">
                                       <a class="nav-link <%= userType=="customer" ? "active": "" %>" id="type-customer" href="/auth/register/customer">Yük Taşıt</a>
                                     </li>
@@ -27,7 +29,7 @@
                                 </ul>
                             </div>
                             <div class="mb-3">
-                              <label for="fullname" class="form-label"><%= userType=="firm" ? "Firma Adı" : "Ad Soyad" %></label>
+                              <label for="fullname" class="form-label"><%= userType=="firm" ? "Firma Adı:" : "Ad Soyad:" %></label>
                               <input type="text" class="form-control" id="fullname" name="fullname">
                             </div>
                             <div class="mb-3">
@@ -51,42 +53,35 @@
                                   <div id="noMatches" class="form-text text-danger" style="display: none;">Password again and password not match</div>
 
                             </div>
-                            <div class="mb-3 float-start">
-                                <div class="form-check mb-2 ">
+                            <div class="row">
+                                <div class="col-md-8 mb-3">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox"  id="termsAndConditions" name="termsAndConditions">
-                                        <label class="form-check-label" for="termsAndConditions"><a href="#">Gizlilik ve Şartlar</a> sözleşmesini okudum kabul ediyorum</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox"  id="termsAndConditions" name="termsAndConditions">
+                                            <label class="form-check-label" for="termsAndConditions"><a href="#">Gizlilik ve Şartlar</a> sözleşmesini okudum kabul ediyorum</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="">
+                                        <p>Zaten hesabın var mı? <a href="/auth/login">Giriş Yap</a></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="buttons text-center">
-                                <button type="submit" class="btn btn-danger" id="signUpBtn" disabled>Sign Up</button>
-                            </div>
-                            <div class="my-3">
-                                <p>Alraedy have an account: <a href="/auth/login">Giriş Yap</a></p>
+
+                            <div class="row">
+                                <button type="submit" class="btn button" id="signUpBtn" disabled>Kayıt Ol</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
+
+            
         </div>
     </div>
+   
 
-    <div class="forms">
-        <div class="card" id="card">
-            <header class="header-register">
-                <nav class="nav-register">
-                    <div class="indicator"></div>
-                    <a href="" class="a-register">Yük Taşı</a>
-                    <a href="" class="a-register">Yük Taşıt</a>
-                    <a href="" class="a-register">Firma</a>
-                </nav>
-            </header>
-            <div class="card-body">
-
-            </div>
-        </div>
-    </div>
     <%- include('../partials/script') %>
     <script>
         const termsAndConditions = document.getElementById('termsAndConditions');
@@ -108,7 +103,7 @@
                 signUpBtn.disabled = true; // Butonu devre dışı bırak
             }
         });
-
     </script>
+
 </body>
 </html>

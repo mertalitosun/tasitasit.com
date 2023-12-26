@@ -4632,3 +4632,202 @@
     '    at async connectMysql (/Users/mertalitosun/Desktop/tasiTasit.com/startup/db.js:20:9)',
   timestamp: '22-12-2023  00:10:34'
 }
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED ::1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3306,
+    fatal: true
+  },
+  level: 'error',
+  message: 'Unable to connect to the database!!! connect ECONNREFUSED ::1:3306',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306\n' +
+    '    at ConnectionManager.connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async ConnectionManager._connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32\n' +
+    '    at async ConnectionManager.getConnection (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:305:26\n' +
+    '    at async Sequelize.authenticate (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:457:5)\n' +
+    '    at async connectMysql (/Users/mertalitosun/Desktop/tasiTasit.com/startup/db.js:20:9)',
+  timestamp: '22-12-2023  14:09:35'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED ::1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3306,
+    fatal: true
+  },
+  level: 'error',
+  message: 'Unable to connect to the database!!! connect ECONNREFUSED ::1:3306',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306\n' +
+    '    at ConnectionManager.connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async ConnectionManager._connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32\n' +
+    '    at async ConnectionManager.getConnection (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:305:26\n' +
+    '    at async Sequelize.authenticate (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:457:5)\n' +
+    '    at async connectMysql (/Users/mertalitosun/Desktop/tasiTasit.com/startup/db.js:20:9)',
+  timestamp: '22-12-2023  14:10:50'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasiTasit.com/views/auth/login.ejs:50\n' +
+    '    48|                 <nav class="nav-register">\r\n' +
+    '    49|                     <div id="indicator"></div>\r\n' +
+    ' >> 50|                     <a class="a-register <%= userType=="customer" ? "active": "" %>" id="type-customer" href="/auth/register/customer">Yük Taşıt</a>\r\n' +
+    '    51|                     <a class="a-register  <%= userType=="shipper" ? "active": "" %> "  id="type-shipper"  href="/auth/register/shipper">Yük Taşı</a>\r\n' +
+    '    52|                     <a class="a-register  <%= userType=="firm" ? "active": "" %>"  id="type-firm"  href="/auth/register/firm">Firma</a>\r\n' +
+    '    53|                 </nav>\r\n' +
+    '\n' +
+    'userType is not defined',
+  level: 'error',
+  timestamp: '22-12-2023  18:15:04'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: Error: connect ECONNREFUSED ::1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3306,
+    fatal: true
+  },
+  original: Error: connect ECONNREFUSED ::1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+    errno: -61,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '::1',
+    port: 3306,
+    fatal: true
+  },
+  level: 'error',
+  message: 'Unable to connect to the database!!! connect ECONNREFUSED ::1:3306',
+  stack: 'SequelizeConnectionRefusedError: connect ECONNREFUSED ::1:3306\n' +
+    '    at ConnectionManager.connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async ConnectionManager._connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32\n' +
+    '    at async ConnectionManager.getConnection (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:305:26\n' +
+    '    at async Sequelize.authenticate (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:457:5)\n' +
+    '    at async connectMysql (/Users/mertalitosun/Desktop/tasiTasit.com/startup/db.js:20:9)',
+  timestamp: '25-12-2023  00:22:27'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '25-12-2023  00:38:52'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '25-12-2023  00:38:52'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '25-12-2023  00:38:52'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:3306',
+  level: 'error',
+  timestamp: '25-12-2023  00:38:52'
+}
+{
+  name: 'SequelizeConnectionRefusedError',
+  parent: AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1667:5) {
+    code: 'ECONNREFUSED',
+    fatal: true,
+    [errors]: [
+      Error: connect ECONNREFUSED ::1:3306
+          at createConnectionError (node:net:1634:14)
+          at afterConnectMultiple (node:net:1664:40) {
+        errno: -61,
+        code: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '::1',
+        port: 3306
+      },
+      Error: connect ECONNREFUSED 127.0.0.1:3306
+          at createConnectionError (node:net:1634:14)
+          at afterConnectMultiple (node:net:1664:40) {
+        errno: -61,
+        code: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 3306
+      }
+    ]
+  },
+  original: AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1667:5) {
+    code: 'ECONNREFUSED',
+    fatal: true,
+    [errors]: [
+      Error: connect ECONNREFUSED ::1:3306
+          at createConnectionError (node:net:1634:14)
+          at afterConnectMultiple (node:net:1664:40) {
+        errno: -61,
+        code: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '::1',
+        port: 3306
+      },
+      Error: connect ECONNREFUSED 127.0.0.1:3306
+          at createConnectionError (node:net:1634:14)
+          at afterConnectMultiple (node:net:1664:40) {
+        errno: -61,
+        code: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 3306
+      }
+    ]
+  },
+  level: 'error',
+  message: 'Unable to connect to the database!!!',
+  stack: 'SequelizeConnectionRefusedError\n' +
+    '    at ConnectionManager.connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async ConnectionManager._connect (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32\n' +
+    '    at async ConnectionManager.getConnection (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)\n' +
+    '    at async /Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:305:26\n' +
+    '    at async Sequelize.authenticate (/Users/mertalitosun/Desktop/tasiTasit.com/node_modules/sequelize/lib/sequelize.js:457:5)\n' +
+    '    at async connectMysql (/Users/mertalitosun/Desktop/tasiTasit.com/startup/db.js:20:9)',
+  timestamp: '26-12-2023  04:58:34'
+}

@@ -16,41 +16,6 @@ body{
     background: linear-gradient(100deg,#ff914d,#007aff);
 }
 
-.navbar{
-    background: linear-gradient(100deg,#ff914d,#007aff);
-    transition: 1s;
-}
-.navbar-nav .nav-item{
-    margin-right: 10px;
-}
-.navbar .nav-link{
-    color: #fff;
-    position: relative;
-}
-.navbar-nav #link::after{
-    content: "";
-    position: absolute;
-    width: 0;
-    bottom: 0;
-    left: 0;
-    transition: .7s;
-}
-.navbar-nav #link:hover::after{
-    border-bottom: 3px solid #ff914d;
-    width: 100%;
-}
-
-
-.nav-link .button{
-    background: linear-gradient(90deg,#ffde59,#ff914d);
-    padding: 10px 30px;
-    border-radius: 50px;
-    opacity: .8;
-    transition: .5s;
-}
-.nav-link .button:hover{
-    opacity: 1;
-}
 
 .header::before{
     content: '';

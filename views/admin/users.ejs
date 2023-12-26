@@ -11,7 +11,11 @@
                 <%- include('../partials/alert') %>
                 <h3 class="text-center my-4"><%= title %></h3>
                 <div class="category-list-table table-responsive">
-                    <table class="table table-striped table-hover"  id="table" >
+                    <div class="filter d-flex align-items-center justify-content-center">
+                        <input type="text" id="filterInput" class="form-control" placeholder="Araç Türü Ara">
+                        <button class="button view ms-1" id="filterBtn"><i class="bi bi-search"></i></button>
+                    </div>
+                    <table class="table table-striped table-hover mt-5"  id="table" >
                         <thead>
                             <tr class="text-center">
                                 <th style="width:200px">Kullanıcı Kodu</th>
