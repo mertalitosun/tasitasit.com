@@ -12,26 +12,25 @@
     color: #fff; 
     margin: 0 !important;
 }
+.forms .card .card-body .nav-pills .nav-item{
+   margin: 1px;
+}
 .forms .card .card-body .nav-pills .nav-link{
     color: #000;
     position: relative;
-}
-.forms .card .card-body .nav-pills .nav-link::after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
     transition: 1s;
 }
+
 .forms .card .card-body .nav-pills .nav-link.active{
-    background-color: #fff !important;
-    border-bottom: 1px solid #FF9800;
+    background-color: #FF9800 !important;
 }
-.forms .card .card-body .nav-pills .nav-link:hover::after{
-    border-bottom: 1px solid #FF9800;
-    width: 100%;
-}
-.forms .card .card-body .nav-pills .nav-link.active:hover::after{
-    border-bottom: none;
+.forms .card .card-body .nav-pills .nav-link:hover{
+    background-color: #FF9800 !important;
+} 
+
+#form-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
