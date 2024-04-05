@@ -66,19 +66,35 @@
       <%= fullname %>
     </a>
     <ul class="dropdown-menu">
-      <li>    
-        <a class="dropdown-item" id="link" aria-current="page" href="/admin/vehicle-types">Araç Türleri</a>
-      </li>
-
-      <li>
-        <a class="dropdown-item" id="link" aria-current="page" href="/admin/cargo-types">Kargo Türleri</a>
-      </li>
-      <li>
-        <a class="dropdown-item" id="link" aria-current="page" href="/admin/roles">Roller</a>
-      </li>
-      <li>
-        <a class="dropdown-item" id="link" aria-current="page" href="/admin/users">Kullanıcılar</a>
-      </li>
+      <% if (isAuth) { %>
+        <% if (isAdmin) { %>             
+          <li class="nav-item">
+            <a class="nav-link" id="link" aria-current="page" href="/admin/vehicle-types">Araç Türleri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="link" aria-current="page" href="/admin/cargo-types">Kargo Türleri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="link" aria-current="page" href="/admin/roles">Roller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="link" aria-current="page" href="/admin/users">Kullanıcılar</a>
+          </li>
+        <% } %>           
+        <% if (isFirm) { %>             
+          <li class="nav-item">
+            <a class="nav-link" id="link" aria-current="page" href="/admin/drivers">Şöförler</a>
+          </li>
+        <% } %>
+        <% if (isShipper) { %>
+          <li class="nav-item">
+            <a class="nav-link" id="link" aria-current="page" href="/admin/vehicles">Araçlar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="link" aria-current="page" href="/admin/routes">Rotalar</a>
+          </li>
+        <% } %>
+      <% } %>      
       <li><hr class="dropdown-divider"></li>
       <li><a class="dropdown-item" href="/auth/logout">Çıkış Yap</a></li>
     </ul>
