@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../partials/head') %>
+</head>
+<body>
+    <%- include('../../partials/navbar') %>
+
+
+    <div class="forms">
+        <div class="container">
+            <%- include('../../partials/alert') %>
+            <div class="card" id="card">
+                <div class="card-body">
+                    <form method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row mb-4">
+                                    <h3 class="text-center mb-4">Başlangıç noktası Seçin</h3>
+                                    <hr>
+                                    <div class="col-md-6 mb-5">
+                                        <div class="col-sm-10 d-flex">
+                                            <select class="form-select text-center" name="startPoint" id="startPoint">
+                                                <option value="-1" selected>Şehir Seçin</option>
+                                                <% provinces.forEach(province => { %>
+                                                    <option value="<%= province.id %>"><%= province.name %></option>
+                                                <% }) %>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="col-sm-10 d-flex">
+                                            <select class="form-select text-center" name="startDistrict" id="startDistrict">
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <h3 class="text-center mb-4">Bitiş noktası Seçin</h3>
+                                    <hr>
+                                    <div class="col-md-6">
+                                        <div class="col-sm-10 d-flex mb-5">
+                                            <select class="form-select text-center" name="endPoint" id="endPoint">
+                                                <option value="-1" selected>Şehir Seçin</option>
+                                                <% provinces.forEach(province => { %>
+                                                    <option value="<%= province.id %>"><%= province.name %></option>
+                                                <% }) %>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="col-sm-10 d-flex">
+                                            <select class="form-select text-center" name="endDistrict" id="endDistrict">
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Durak Noktaları Ekleme Alanı -->
+                                <div class="row mb-4" id="stations">
+                                    <h3 class="text-center mb-4">Durak Noktası Seçin</h3>
+                                    <hr>
+                                    <div class="col-md-6">
+                                        <div class="col-sm-10 d-flex mb-3">
+                                            <select class="form-select text-center" name="visitPoint[]" id="visitPoint_1">
+                                                <option value="-1" selected>1. Durak Noktasını Seçin</option>
+                                                <% provinces.forEach(province => { %>
+                                                    <option value="<%= province.id %>"><%= province.name %></option>
+                                                <% }) %>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Ekleme Butonu -->
+                                <div class="row mb-4">
+                                    <div class="col-md-12">
+                                        <button type="button" class="button px-5 view" id="addVisitPoint">Durak Ekle</button>
+                                        <button type="button" class="button px-5 view" id="removeVisitPoint">Durak Kaldır</button>
+                                        <button type="submit" class="btn btn-primary">İleri</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <%- include('../../partials/script') %>
+    <script src="/static/js/provinceDistrictSelector.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const maxVisitPoint = 10; // Maksimum durak sayısı
+
+            const stationsDiv = document.getElementById('stations');
+            const addVisitPointButton = document.getElementById('addVisitPoint');
+            const removeVisitPointButton = document.getElementById('removeVisitPoint');
+
+            let stationCounter = 1; // Başlangıçta bir durak seçim kutusu var
+
+            addVisitPointButton.addEventListener('click', function() {
+                if (stationCounter < maxVisitPoint) {
+                    stationCounter++;
+
+                    const yeniDurakHTML = `
+                        <div class="col-md-6">
+                            <div class="col-sm-10 d-flex mb-3">
+                                <select class="form-select text-center" name="visitPoint" id="visitPoint_${stationCounter}">
+                                    <option value="-1" selected>${stationCounter}. Durak Noktasını Seçin</option>
+                                    <% provinces.forEach(province => { %>
+                                        <option value="<%= province.id %>"><%= province.name %></option>
+                                    <% }) %>
+                                </select>
+                            </div>
+                        </div>
+                    `;
+
+                    // Yeni durak seçim kutusunu ekleyin
+                    stationsDiv.insertAdjacentHTML('beforeend', yeniDurakHTML);
+
+                    // Maksimum sayıya ulaşıldığında butonu devre dışı bırak
+                    if (stationCounter === maxVisitPoint) {
+                        addVisitPointButton.disabled = true;
+                        addVisitPointButton.innerText = "Maksimuma Ulaşıldı";
+                    }
+                } else {
+                    window.alert("Daha fazla durak noktası ekleyemezsiniz!");
+                }
+            });
+
+            removeVisitPointButton.addEventListener('click', function() {
+                if (stationCounter > 1) {
+                    const lastDurak = document.getElementById(`visitPoint_${stationCounter}`);
+                    lastDurak.parentNode.parentNode.remove();
+                    stationCounter--;
+
+                    // Eğer maksimuma ulaşılmışsa butonu tekrar etkinleştir
+                    if (stationCounter < maxVisitPoint) {
+                        addVisitPointButton.disabled = false;
+                        addVisitPointButton.innerText = "Durak Ekle";
+                    }
+                } else {
+                    window.alert("En az bir durak noktası olmalı!");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

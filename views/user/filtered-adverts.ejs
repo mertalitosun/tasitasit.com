@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body>
+    <%- include('../partials/navbar') %>
+    
+    
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-light text-center my-3">İlanlar Sayfası</h1>
+                <!-- navs and tabs -->
+                <ul class="nav justify-content-center text-light bg-danger">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/adverts/customer">Taşınacak Yük Arıyorum</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/adverts/shipper">Nakliyeci Arıyorum</a>
+                    </li>
+                </ul>
+                <!-- advert-filter -->
+                <div class="row my-3">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <form id="advertsFilter" action="/adverts/<%= advertType=="customer" ? "customer" : "shipper" %>" method="post">                                        
+                                    <div class="row ">
+                                        <!-- startPoint Selector -->
+                                        <div class="col-md-3">
+                                            <label for="startPointSelector" class="form-label border-bottom">Başlangıç Noktası</label>
+                                            <select class="form-select form-select-sm mb-3" aria-label=".form-select-sm example" name="startPoint" id="startPointSelector" required>
+                                                <% provinces.forEach(province => { %>
+                                                    <option value="<%= province.id %>" <%= startPoint == province.id ? 'selected' : '' %>><%= province.name %></option>
+                                                <% }) %>
+                                            </select>
+                                        </div>
+                                        <!-- endPoint Selector -->
+                                        <div class="col-md-3">
+                                            <label for="endPointSelector" class="form-label border-bottom">Bitiş Noktası</label>
+                                            <select class="form-select form-select-sm mb-3" aria-label=".form-select-sm example" name="endPoint" id="endPointSelector" required>
+                                                <% provinces.forEach(province => { %>
+                                                    <option value="<%= province.id %>" <%= endPoint == province.id ? 'selected' : '' %>><%= province.name %></option>
+                                                <% }) %>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <label for="startDatePicker" class="form-label border-bottom">Başlangıç Tarihi</label>
+                                            <input type="date" class="form-control" name="startDate" id="startDatePicker" value="<%= startDate %>" required> 
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button type="submit" id="filterAndSearchBtn" class=" btn btn-sm btn-outline-danger px-3" style="margin-top: 36px;">Ara</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- adverts -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <% if (advertType=="customer") { %>  
+                                <% if (adverts) { %>                                 
+                                    <% adverts.forEach(advert => { %>                                 
+                                        <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      
+                                    <% }) %>
+                                <% } else { %>
+                                    <h1>İlan Bulunamadı</h1>
+                                <% }%>                          
+                            <% } %>
+                            <% if (advertType=="shipper") { %>
+                                <% if (adverts) { %>
+                                    
+                                    <% adverts.forEach(advert => { %>   
+                                        <%- include('../partials/advert-card-forShipper',{advert: advert}) %>                                      
+
+                                    <% }) %>
+                                <% } else { %>
+                                    <h5 class="bg-danger">İlan Yok</h5>
+                                    <% } %>
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+         
+    <%- include('../partials/script') %>
+    <script src="/static/js/dateFormatConvertor.js"></script>
+    
+    <script>
+        const startPointSelector=document.getElementById("startPointSelector");
+        const endPointSelector=document.getElementById("endPointSelector");
+        const startDatePicker=document.getElementById("startDatePicker");
+        const filterAndSearchBtn=document.getElementById("filterAndSearchBtn");
+        let startPoint;
+        let endPoint;
+        let startDate;
+        startPointSelector.addEventListener("change",()=>{
+            startPoint=startPointSelector.value;
+        });
+        endPointSelector.addEventListener("change",()=>{
+            endPoint=endPointSelector.value;
+        });
+        startDatePicker.addEventListener("change",()=>{
+            startDate=startDatePicker.value;
+        });      
+        let advertsFilter=document.getElementById("advertsFilter");
+        let advertsFilterStatic=advertsFilter.action;
+        console.log(advertsFilterStatic);
+        filterAndSearchBtn.addEventListener("click",()=>{
+            advertsFilter.action=`${advertsFilterStatic}/${startPoint}-${endPoint}/${startDate}`;
+        })
+
+    </script>
+</body>
+</html>

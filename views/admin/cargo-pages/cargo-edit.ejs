@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../partials/head') %>
+</head>
+<body>
+    <%- include('../../partials/navbar') %>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <%- include('../../partials/alert') %>
+            <form method="post"  enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mb-3 row">
+                            <label for="image" class="col-sm-2 col-form-label">Kargo Resmi:</label>
+                            <img src="/static/images/<%= cargo.cargoImg %>" alt="<%= cargo.cargoImg %>" class="col-sm-2" id="previewImg">
+                            <div class="col-sm-7">
+                                <input type="file" class="form-control" id="image" name="cargoImg">
+                                <p class="mt-2">Ayarlanan Görsel: <b><input type="hidden" value="<%= cargo.cargoImg %>" name="cargoImg"><%= cargo.cargoImg %></p></b>
+                            </div>
+                            <div class="col-sm-1">
+                                <button type="button" class="btn btn-danger" id="removeImgBtn">Kaldır</button>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="weight" class="col-sm-2 col-form-label">Kilo:</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="weight" name="weight" value="<%= cargo.weight %>" step="0.1">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="horizontalHeight" class="col-sm-2 col-form-label">Uzunluk (Yatay):</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="horizontalHeight" name="horizontalHeight" value="<%= cargo.horizontalHeight %>" step="0.1">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="verticalHeight" class="col-sm-2 col-form-label">Uzunluk: (Dikey)</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="verticalHeight" name="verticalHeight" value="<%= cargo.verticalHeight %>" step="0.1">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="cargoType" class="col-sm-2 col-form-label">Kargo Türü:</label>
+                            <div class="col-sm-10 d-flex">
+                                <select class="form-select" name="cargoType">
+                                    <option selected value="<%= cargo.cargoType.id %>"><%= cargo.cargoType.cargoTypeName %></option>
+                                    <option value="-1">Seçilmedi</option>
+                                    <% cargoTypes.forEach(cargoType => { %>
+                                        <option value="<%= cargoType.id %>"><%= cargoType.cargoTypeName %></option>
+                                    <% }) %>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="mb-3  text-center">
+                            <input type="hidden" name="advertId" value="<%= advertId %>">
+                            <input type="hidden" name="cargoId" value="<%= cargo.id %>">
+                            <button type="submit" class="btn btn-primary px-5">Sonraki</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <%- include('../../partials/script') %>
+    <script src="/static/js/imagePrev.js"></script>
+
+
+</body>
+</html>

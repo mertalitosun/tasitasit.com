@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../partials/head') %>
+</head>
+<body>
+    <%- include('../../partials/navbar') %>
+    <div class="forms">
+        <%- include('../../partials/alert') %>
+        <div class="card" id="card">
+            <div class="card-body">
+                <div class="table-responsive" id="tableResponsive">
+                    <table class="table table-striped table-hover mt-5">
+                        <thead>
+                            <tr>
+                                <th>Rota Kodu</th>
+                                <th>Başlangıç Şehri</th>
+                                <th>Bitiş Şehri</th>
+                                <th>Uğranacak Şehirler</th>
+                                <th style="width: 200px;"><a href="/shipper/shipper-advert/create/route" class="btn btn-create text-center">+ Rota Ekle</a></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                           <% routes.forEach(route => { %>
+                                <tr>
+                                    <td><%= route.routeCode %></td>
+                                    <td>
+                                        <% const findStartPoint = districts.find(district => district.id == route.startPoint); %>
+                                        <%- findStartPoint ? `${findStartPoint.name}, <b>${findStartPoint.province.name}</b>` : "Bulunamadı"; %>
+                                    </td>
+                                    <td>
+                                        <% const findEndPoint = districts.find(district => district.id == route.endPoint); %>
+                                        <%- findEndPoint ? `${findEndPoint.name}, <b>${findEndPoint.province.name}</b>` : "Bulunamadı"; %>
+                                    </td>
+                                    <td>
+                                        <% if (route.visitPoints==null) { %>
+                                            <li>Durak/Güzergah Eklenmemiş</li>
+                                        <% } else { %>    
+                                            <% for (let visitPoint of route.visitPoints) { %>
+                                                <% const findVisitPoint = provinces.find(province => province.id == visitPoint); %>
+                                                <li><%- findVisitPoint ? `${findVisitPoint.name}` : "Bulunamadı"; %></li>
+                                            <% } %>
+                                        <% } %>
+                                    </td>
+                                    <td>
+                                        <a href="/shipper/shipper-advert/edit/advertid//routeid/<%= route.id %>" class="btn btn-primary btn-sm">Düzenle</a>
+                                    </td>
+                                </tr>
+                           <% }) %>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('../../partials/script') %>
+</body>
+</html>
