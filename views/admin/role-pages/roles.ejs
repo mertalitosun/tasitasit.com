@@ -12,13 +12,13 @@
                 <div class="card-body">
                     <form action="/admin/role/create" method="post" class="row gx-3 gy-2 align-items-center justify-content-center">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-10 col-12">
                                 <label class="visually-hidden" for="roleName">Role Name:</label>
                                 <input type="text" class="form-control text-center" id="roleName" placeholder="Role Name" name="roleName">
                             </div>
-                        </div>
-                        <div class="row">
-                            <button type="submit" class="button px-5 view">Create</button>
+                            <div class="col-12 col-md-2 mt-3">
+                                <button type="submit" class="button px-5 view" style="width: 100%;">Ekle</button>
+                            </div>
                         </div>
                     </form>    
                 </div>
@@ -79,7 +79,7 @@
                                                                 </table>
                                                             </div>
                                                             <div class="modal-footer">
-                                                                <button type="button" class="button px-5" data-bs-dismiss="modal">Close</button>
+                                                                <button type="button" class="button px-5" data-bs-dismiss="modal">Vazgeç</button>
                                                                 <form action="/admin/role/delete/<%= role.id %>" method="post">
                                                                     <input type="hidden" name="roleId" value="<%= role.id %>">
                                                                     <input type="hidden" name="roleName" value="<%= role.roleName %>">

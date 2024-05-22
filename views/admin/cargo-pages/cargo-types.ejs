@@ -16,13 +16,14 @@
                         <div class="card-body">
                             <form action="/admin/cargo-type/create" method="post">
                                 <div class="row">
-                                    <div class="col-12">
+                                    <div class="col-12 col-md-10">
                                         <input type="text" class="form-control text-center" name="cargoTypeName" placeholder="Kargo Türünü Girin">
                                     </div>
+                                    <div class="col-12 col-md-2 mt-3">
+                                        <button type="submit" class="button px-5 view" style="width: 100%;">Ekle</button>
+                                    </div>
                                 </div>
-                                <div class="row">
-                                    <button type="submit" class="button px-5 view">Ekle</button>
-                                </div>
+                                
                             </form>
                         </div>
                     </div>
@@ -102,7 +103,7 @@
                                                                     </table>
                                                                 </div>
                                                                 <div class="modal-footer">
-                                                                    <button type="button" class="button px-5" data-bs-dismiss="modal">Close</button>
+                                                                    <button type="button" class="button px-5" data-bs-dismiss="modal">Vazgeç</button>
                                                                     <form action="/admin/cargo-type/delete/<%= cargoType.id %>" method="post">
                                                                         <input type="hidden" name="cargoTypeId" value="<%= cargoType.id %>">
                                                                         <input type="hidden" name="cargoTypeName" value="<%= cargoType.cargoTypeName %>">

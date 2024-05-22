@@ -78,11 +78,11 @@
                                                         <h6>Bu kargoyu silmeniz, kargonun bağlantılı olduğu ilanı da siler. Yine de Kargoyu silmek istediğinize emin misiniz?</h6>
                                                     </div>
                                                     <div class="modal-footer">
-                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Vazgeç</button>
                                                         <form action="/shipper/voyage/delete/<%= voyage.id %>" method="post">
                                                             <input type="hidden" name="voyageId" value="<%= voyage.id %>">
                                                             <input type="hidden" name="voyageCode" value="<%= voyage.voyageCode %>">>
-                                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                                            <button type="submit" class="btn btn-danger">Sil</button>
                                                         </form>
                                                     </div>
                                                 </div>

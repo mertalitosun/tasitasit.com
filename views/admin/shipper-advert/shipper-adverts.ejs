@@ -10,7 +10,7 @@
             <%- include('../../partials/alert') %>
             <div class="col-md-12">
                 <% if (isShipper) { %>                 
-                    <ul class="nav justify-content-center text-light bg-danger">
+                    <ul class="nav justify-content-center text-light" style="background-color: #f2a85a;">
                         <li class="nav-item">
                           <a class="nav-link active text-light" aria-current="page" href="/customer/customer-adverts">Yük Taşıtma İlanlarım</a>
                         </li>
@@ -112,10 +112,10 @@
                                                         <h6>Bu ilanı silmek istediğinize emin misiniz?</h6>
                                                     </div>
                                                     <div class="modal-footer">
-                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Vazgeç</button>
                                                         <form action="/shipper/shipper-advert/delete/advert/<%= advert.id %>" method="post">
                                                             <input type="hidden" name="advertId" value="<%= advert.id %>">
-                                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                                            <button type="submit" class="btn btn-danger">Sil</button>
                                                         </form>
                                                     </div>
                                                 </div>

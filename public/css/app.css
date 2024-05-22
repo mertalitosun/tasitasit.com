@@ -96,3 +96,42 @@ body{
     font-size: 20px;
 }
 
+.howToWork{
+    margin-top: 40px;
+    background: url("/static/images/howtowork.webp");
+}
+
+.howToWork .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.howToWork .row .col-md-6{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.howToWork .card{
+    background-color: #f2fdf5;
+    height: 200px;
+    width: 450px;
+    color: #72a479;
+}
+
+.howToWork .card h6{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #306339;
+}
+.accordion-button{
+    background-color: #f2a85a;
+}
+.accordion-button::after{
+    display: none;
+}
+.accordion-button:not(.collapsed){
+    background-color: #f2a85a;
+}

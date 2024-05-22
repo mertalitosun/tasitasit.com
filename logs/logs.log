@@ -3681,3 +3681,190 @@
   level: 'error',
   timestamp: '22-05-2024  01:07:29'
 }
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:07:34'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:07:42'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:08:08'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:08:19'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:08:24'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:09:48'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:09:49'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:09:49'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:09:50'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:09:50'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:34\n' +
+    '    32|                                 <% if (adverts) { %>                                 \n' +
+    '    33|                                     <% adverts.forEach(advert => { %>                                 \n' +
+    " >> 34|                                         <%- include('../partials/advert-card-forCustomer',{advert: advert}) %>                                      \n" +
+    '    35|                                     <% }) %>\n' +
+    '    36|                                 <% } else { %>\n' +
+    '    37|                                     İlan Bulunamadı\n' +
+    '\n' +
+    'missing ) after argument list in /Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-card-forCustomer.ejs while compiling ejs\n' +
+    '\n' +
+    'If the above error is not helpful, you may want to try EJS-Lint:\n' +
+    'https://github.com/RyanZim/EJS-Lint\n' +
+    'Or, if you meant to create an async function, pass `async: true` as an option.',
+  level: 'error',
+  timestamp: '22-05-2024  09:09:50'
+}

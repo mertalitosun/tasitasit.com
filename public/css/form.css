@@ -6,14 +6,14 @@
     margin: auto;
     padding: 20px;
     border-radius: 20px;
-    max-width: 80%;
     box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3);
     transition: .5s ease-in-out;
 }
 .card form .row{
     margin-bottom: 2rem;
 }
-.forms .row .button, .button{
+.forms .row .button, .button{ 
+    color: #fff;
     background: linear-gradient(90deg,#ffde59,#ff914d);
     padding: 10px 30px;
     border-radius: 50px;
@@ -29,10 +29,7 @@
 .form-select{
     border: 0;
     border-radius: 5px;
-    /* border-left: 2px solid #ff914d;
-    border-right: 2px solid #ff914d; */
-    border-bottom: 2px solid #ff914d;
-    /* border: 2px solid #ff914d; */
+    border: 2px solid #ff914d; 
 }
 .forms input[type=checkbox]{
     border: 2px solid black;
@@ -77,6 +74,9 @@ input:focus{
     align-items: center;
     vertical-align: middle;
 }
+#table tr td li{
+    list-style-type: none;
+}
 #table .left-text{
     width: 300px;
     text-align: left;
@@ -88,10 +88,10 @@ input:focus{
 }
 
 .update, .delete{
-    font-size: 26px;
+    font-size: 16px;
 }
 .edit, .delete{
-    font-size: 30px !important;
+    font-size: 16px !important;
 }
 .edit{
     color: rgb(9, 129, 234);
@@ -108,7 +108,7 @@ input:focus{
     font-size: 15px !important;
 }
 .blockBtn{
-    font-size: 20px !important;
+    font-size: 16px !important;
 }
 /* copy text from input */
 .copy{

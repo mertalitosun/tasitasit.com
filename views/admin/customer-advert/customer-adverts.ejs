@@ -11,7 +11,7 @@
             <div class="col-md-12">
                 <!-- navs and tabs -->
                 <% if (isShipper) { %>                 
-                    <ul class="nav justify-content-center text-light bg-danger">
+                    <ul class="nav justify-content-center text-light" style="background-color: #f2a85a;">
                         <li class="nav-item">
                           <a class="nav-link active text-light" aria-current="page" href="/customer/customer-adverts">Yük Taşıtma İlanlarım</a>
                         </li>
@@ -98,11 +98,11 @@
                                                         <h6>Bu ilanı silerseniz, ilişkili kargonuzda silinir. Yine de silmek istiyor musunuz?</h6>
                                                     </div>
                                                     <div class="modal-footer">
-                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Vazgeç</button>
                                                         <form action="/customer/customer-advert/delete/<%= advert.id %>" method="post">
                                                             <input type="hidden" name="advertId" value="<%= advert.id %>">
                                                             <input type="hidden" name="advertCode" value="<%= advert.advertCode %>">
-                                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                                            <button type="submit" class="btn btn-danger">Sil</button>
                                                         </form>
                                                     </div>
                                                 </div>

@@ -2,8 +2,8 @@
     <div class="accordion-item my-2">
         <div class="row">
             <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button collapsed bg-danger text-light" type="button" data-bs-toggle="collapse" data-bs-target="#advertId_<%= advert.id %>" aria-expanded="true" aria-controls="advertId_<%= advert.id %>">
-                    <%= advert.title %> ~ <%= advert.user.fullname %>
+                <button class="accordion-button collapsed  text-light" type="button" data-bs-toggle="collapse" data-bs-target="#advertId_<%= advert.id %>" aria-expanded="true" aria-controls="advertId_<%= advert.id %>">
+                    <%= advert.title %> ~ <span class="ms-auto"><%= advert.user.fullname %></span>
                 </button>
             </h2>
             <div class="row mx-3 my-4">
@@ -27,15 +27,15 @@
                     <h5><span class="startDate"><%= advert.startDate %></span> - <span class="endDate"><%= advert.endDate %></span></h5>
                 </div>
                 <div class="col-md-3">
-                    <p><%= advert.cargo.cargoType.cargoTypeName %></p>
+                    <p><%= advert.cargo.cargoType.cargoTypeName.charAt(0).toUpperCase() + advert.cargo.cargoType.cargoTypeName.slice(1).toLowerCase() %></p>
                 </div>
                 <div class="col-md-2">
-                    <button type="submit" class="btn btn-sm btn-danger" id="advertDetailBtn" data-bs-toggle="collapse" data-bs-target="#advertId_<%= advert.id %>" aria-expanded="false" aria-controls="advertId_<%= advert.id %>">
+                    <button type="submit" class="btn btn-sm advertDetailBtn" id="advertDetailBtn" data-bs-toggle="collapse" data-bs-target="#advertId_<%= advert.id %>" aria-expanded="false" aria-controls="advertId_<%= advert.id %>" style="background-color: #f2a85a; color: #fff;">
                         Detayları Göster</button>
                 </div>
             </div>
         </div>
-      <div id="advertId_<%= advert.id %>" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordion_<%= advert.id %>">
+      <div id="advertId_<%= advert.id %>" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordion_<%= advert.id %>" >
         <div class="accordion-body">
             <div class="row">
                 <div class="col-md-12">
