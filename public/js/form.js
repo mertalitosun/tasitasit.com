@@ -36,5 +36,4 @@ document.addEventListener('DOMContentLoaded', () => {
  today = yyyy + '-' + mm + '-' + dd;
 
  // Bugünden önceki tarihleri engelle
- console.log(document.getElementById("estimatedDeadline"))
  document.getElementById("estimatedDeadline").setAttribute("min", today);
