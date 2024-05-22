@@ -93,10 +93,48 @@
                                                                 <% } %>
                                                                 <% if (offer.customerAdvert.userId==userId) { %>                                                                 
                                                                     <ul>
-                                                                        <li>Ad-Soyad: <%= offer.shipperAdvert.user.fullname %></li>
-                                                                        <li>Telefon Numarası: <a href="tel:+90<%= offer.shipperAdvert.user.phone %>">+90<%= offer.shipperAdvert.user.phone %></a></li>
-                                                                        <li><a href="https://wa.me/<%= offer.shipperAdvert.user.phone %>" target="_blank">Whatsapp</a></li>
-                                                                        <li>E-Mail: <a href="mailto:<%= offer.shipperAdvert.user.email %>"><%= offer.shipperAdvert.user.email %></a></li>
+                                                                        <div class="row mb-3">
+                                                                            <div class="col-6">
+                                                                                Ad-Soyad: 
+                                                                            </div>
+                                                                            <div class="col-6">
+                                                                                <div>
+                                                                                    <%= offer.shipperAdvert.user.fullname %>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row mb-3">
+                                                                            <div class="col-6">
+                                                                                Telefon Numarası:  
+                                                                            </div>
+                                                                            <div class="col-6">
+                                                                                <div>
+                                                                                    <a href="tel:+90<%= offer.shipperAdvert.user.phone %>">+90<%= offer.shipperAdvert.user.phone %></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row mb-3">
+                                                                            <div class="col-6">
+                                                                                E-Mail:   
+                                                                            </div>
+                                                                            <div class="col-6">
+                                                                                <div>
+                                                                                    <a href="mailto:<%= offer.shipperAdvert.user.email %>"><%= offer.shipperAdvert.user.email %></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row mb-3">
+                                                                            <div class="col-6">
+                                                                                Whatsapp   
+                                                                            </div>
+                                                                            <div class="col-6">
+                                                                                <div>
+                                                                                    <a href="https://wa.me/<%= offer.shipperAdvert.user.phone %>" target="_blank" style="color: green; font-size: 25px;">
+                                                                                        <i class="bi bi-whatsapp"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        
                                                                     </ul>
                                                                 <% } %>
                                                             </div>
@@ -117,7 +155,7 @@
                                                           <h1 class="modal-title fs-5" id="offer_<%= offer.id %>Label">Modal title</h1>
                                                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
-                                                        <div class="modal-body">
+                                                        <div class="modal-body table-responsive">
                                                             <table class="table table-striped table-hover" id="table">
                                                                 <thead>
                                                                     <tr class="text-center">

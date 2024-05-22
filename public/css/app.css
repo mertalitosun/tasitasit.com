@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 .btn-create{
     background: linear-gradient(30deg,#304D30,#88AB8E );
     border-radius: 15px;
@@ -116,7 +119,7 @@ body{
 .howToWork .card{
     background-color: #f2fdf5;
     height: 200px;
-    width: 450px;
+   max-width: 330px;
     color: #72a479;
 }
 

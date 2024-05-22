@@ -11,7 +11,7 @@ document.querySelectorAll('input[type="number"]').forEach(input => {
     });
 });
 
-// telefon inputuna yazı engelleme 
+//inputuna yazı engelleme 
 document.addEventListener('DOMContentLoaded', () => {
     const numericInputs = ['phone', 'wheels']; // Numeric input IDs
 
@@ -26,3 +26,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+ // Şu anki tarihi al
+ var today = new Date();
+ var dd = String(today.getDate()).padStart(2, '0');
+ var mm = String(today.getMonth() + 1).padStart(2, '0'); // Ocak 0'dan başlar
+ var yyyy = today.getFullYear();
+
+ today = yyyy + '-' + mm + '-' + dd;
+
+ // Bugünden önceki tarihleri engelle
+ console.log(document.getElementById("estimatedDeadline"))
+ document.getElementById("estimatedDeadline").setAttribute("min", today);
