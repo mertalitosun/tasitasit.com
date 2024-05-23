@@ -5,127 +5,144 @@
 </head>
 <body>
     <%- include('../partials/navbar') %>
-    <div class="forms">
-        <div class="card" id="card">
-            <div class="card-body">
-                <%- include('../partials/alert') %>
-                <h3 class="text-center my-4"><%= title %></h3>
-                <div class="category-list-table table-responsive">
-                    <table class="table table-striped table-hover" >
-                        <thead id="table">
-                            <tr class="text-center">
-                                <th style="width:200px">User Code</th>
-                                <th>Fullname</th>
-                                <th>E-Mail</th>
-                                <th>Aktif</th>
-                                <th>Role</th>
-                                <th style="width: 220px;"></th>
-                            </tr>
-                        </thead>
-                        <tbody id="table">
-                            <% users.forEach(user => { %>                             
-                                <tr class=" align-items-center">
-                                    <td><%= user.userCode %></td>
-                                    <td><%= user.fullname %></td>
-                                    <td><%= user.email %></td>
-                                    <td><%= user.isActive==true ? "Aktif" : "Pasif" %></td>
-                                    <td>
-                                        <% for (let role of user.roles) { %>
-                                            <li><%= role.roleName %></li>
-                                        <% } %>
-                                    </td>
-                                    <td>
-                                        <div class="table-buttons d-flex justify-content-center">
-                                            <!-- update-table-panel -->
-                                            <a href="/admin/user/edit/<%= user.id%>"  data-bs-toggle="offcanvas" data-bs-target="#offcanvas_<%= user.id%>" aria-controls="offcanvasRight" class="btn edit"><i class="bi bi-pencil-square"></i></a>
-                                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas_<%= user.id%>" aria-labelledby="offcanvasRightLabel">
-                                                <div class="offcanvas-header">
-                                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">User Edit</h5>
-                                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                                </div>
-                                                <div class="offcanvas-body mx-4">
-                                                    <div class="row mb-3">
-                                                        <label for="userName">User Name: </label>
-                                                        <div class="row">
-                                                            <div class="col-11">
-                                                                <input type="text" class="form-control mt-2" id="userName" name="userName" value="<%= user.fullname %>" disabled>
-                                                            </div>
-                                                            <div class="col-1 copy">
-                                                            <i class="bi bi-copy btnCopy"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mb-3">
-                                                        <label for="email">E-Mail: </label>
-                                                        <div class="row">
-                                                            <div class="col-11">
-                                                                <input type="email" class="form-control mt-2" id="email" name="email" value="<%= user.email %>" disabled>
-                                                            </div>
-                                                            <div class="col-1 copy">
-                                                            <i class="bi bi-copy btnCopy"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mb-3">
-                                                        <label for="phone">Phone: </label>
-                                                        <div class="row">
-                                                            <div class="col-11">
-                                                                <input type="tel" class="form-control" id="phone" name="phone" value="<%= user.phone %>" disabled>
-                                                            </div>
-                                                            <div class="col-1 copy">
-                                                            <i class="bi bi-copy btnCopy"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <form action="/admin/user/edit/<%= user.id %>" method="post" >
-                                                        <div class="row my-3">
-                                                            <h6 class="border-bottom pb-2">Roles</h6>
-                                                            <% roles.forEach(role => { %>                                 
-                                                                <div class="form-check">
-                                                                    <input class="form-check-input" type="checkbox"
-                                                                      id="role_<%= role.id %>" value="<%= role.id %>" name="roleIds[]"  <% if (user.roles.some(rol => rol.id == role.id)) { %>
-                                                                        checked
-                                                                    <% } %>>
-                                                                    <label class="form-check-label" for="role_<%= role.id %>"><%= role.roleName %></label>
-                                                                </div>
-                                                            <% }) %>
-                                                        </div>
-                                                        <div class="row">
-                                                            <input type="hidden" name="userId" value="<%= user.id %>">
-                                                            <button type="submit" class="btn update"><i class="bi bi-arrow-clockwise"></i> Update</button> 
-                                                        </div>
-                                                    </form>
+    <div class="container">
+        <div class="forms">
+            <div class="card" id="card">
+                <div class="card-body">
+                    <%- include('../partials/alert') %>
+                    <h3 class="text-center my-4"><%= title %></h3>
+                    <div class="category-list-table table-responsive">
+                        <div class="searcBarArea d-flex align-items-center justify-content-around">
+                            <select name="" id="search" class="form-select my-3" style="max-width: 200px;">
+                                <option value="">Profil Türü</option>
+                                <% users.forEach(user => { %>
+                                    <option value="<%= user.fullname %>"><%= user.fullname %></option>
+                                <% }) %>
+                            </select>
 
-                                                </div>
-                                            </div>
-                                            <% if (user.isBlocked) { %>
-                                                <form action="/admin/user/remove-block/<%= user.id %>" method="post">
-                                                    <input type="hidden" name="userId" value="<%= user.id %>">
-                                                    <button type="submit" class="btn removeBlock">
-                                                        <div class="row d-flex flex-column align-items-center">
-                                                            <div class="col-2">
-                                                                <i class="bi bi-person-fill-x text-center" style="font-size: 25px;"></i>
-                                                            </div>
-                                                            <div class="col-10" style="width: 100% !important;">
-                                                                Engeli Kaldır
+                            <select name="" id="searchRole" class="form-select my-3" style="max-width: 200px;">
+                                <option value="">Rol Adı</option>
+                                <% roles.forEach(role => { %>
+                                    <option value="<%= role.roleName %>"><%= role.roleName %></option>
+                                <% }) %>
+                            </select>
+                        </div>
+                        <table class="table table-striped table-hover" >
+                            <thead id="table">
+                                <tr class="text-center">
+                                    <th style="width:200px">Kullanıcı Kodu</th>
+                                    <th>Adı</th>
+                                    <th>E-Posta</th>
+                                    <th>Durum</th>
+                                    <th>Rol</th>
+                                    <th style="width: 220px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="table">
+                                <% users.forEach(user => { %>                             
+                                    <tr class=" align-items-center">
+                                        <td><%= user.userCode %></td>
+                                        <td class="searchArea"><%= user.fullname %></td>
+                                        <td><%= user.email %></td>
+                                        <td><%= user.isActive==true ? "Aktif" : "Pasif" %></td>
+                                        <td class="searchAreaRole">
+                                            <% for (let role of user.roles) { %>
+                                                <li><%= role.roleName %></li>
+                                            <% } %>
+                                        </td>
+                                        <td>
+                                            <div class="table-buttons d-flex justify-content-center">
+                                                <!-- update-table-panel -->
+                                                <a href="/admin/user/edit/<%= user.id%>"  data-bs-toggle="offcanvas" data-bs-target="#offcanvas_<%= user.id%>" aria-controls="offcanvasRight" class="btn edit"><i class="bi bi-pencil-square"></i></a>
+                                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas_<%= user.id%>" aria-labelledby="offcanvasRightLabel">
+                                                    <div class="offcanvas-header">
+                                                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Kullanıcı Düzenle</h5>
+                                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="offcanvas-body mx-4">
+                                                        <div class="row mb-3">
+                                                            <label for="userName">Kullanıcı Adı: </label>
+                                                            <div class="row">
+                                                                <div class="col-11">
+                                                                    <input type="text" class="form-control mt-2" id="userName" name="userName" value="<%= user.fullname %>" disabled>
+                                                                </div>
+                                                                <div class="col-1 copy">
+                                                                <i class="bi bi-copy btnCopy"></i>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </button>
-                                                    
-                                                </form>
-                                            <% } %>
-                                            <% if (!user.isBlocked) { %>                                             
-                                                <form action="/admin/user/block/<%= user.id %>" method="post">
-                                                    <input type="hidden" name="userId" value="<%= user.id %>">
-                                                    <button type="submit" class="btn delete blockBtn"><i class="bi bi-person-dash"></i> Engelle</button>
-                                                </form>
-                                            <% } %>
-                                        </div>
-                                    </td>
-                                </tr>
-                            <% }) %>
-                        </tbody>
-                    </table>
+                                                        <div class="row mb-3">
+                                                            <label for="email">E-Posta: </label>
+                                                            <div class="row">
+                                                                <div class="col-11">
+                                                                    <input type="email" class="form-control mt-2" id="email" name="email" value="<%= user.email %>" disabled>
+                                                                </div>
+                                                                <div class="col-1 copy">
+                                                                <i class="bi bi-copy btnCopy"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-3">
+                                                            <label for="phone">Telefon: </label>
+                                                            <div class="row">
+                                                                <div class="col-11">
+                                                                    <input type="tel" class="form-control" id="phone" name="phone" value="<%= user.phone %>" disabled>
+                                                                </div>
+                                                                <div class="col-1 copy">
+                                                                <i class="bi bi-copy btnCopy"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <form action="/admin/user/edit/<%= user.id %>" method="post" >
+                                                            <div class="row my-3">
+                                                                <h6 class="border-bottom pb-2">Rol</h6>
+                                                                <% roles.forEach(role => { %>                                 
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox"
+                                                                          id="role_<%= role.id %>" value="<%= role.id %>" name="roleIds[]"  <% if (user.roles.some(rol => rol.id == role.id)) { %>
+                                                                            checked
+                                                                        <% } %>>
+                                                                        <label class="form-check-label" for="role_<%= role.id %>"><%= role.roleName %></label>
+                                                                    </div>
+                                                                <% }) %>
+                                                            </div>
+                                                            <div class="row">
+                                                                <input type="hidden" name="userId" value="<%= user.id %>">
+                                                                <button type="submit" class="btn update"><i class="bi bi-arrow-clockwise"></i> Güncelle</button> 
+                                                            </div>
+                                                        </form>
+    
+                                                    </div>
+                                                </div>
+                                                <% if (user.isBlocked) { %>
+                                                    <form action="/admin/user/remove-block/<%= user.id %>" method="post">
+                                                        <input type="hidden" name="userId" value="<%= user.id %>">
+                                                        <button type="submit" class="btn removeBlock">
+                                                            <div class="row d-flex flex-column align-items-center">
+                                                                <div class="col-2">
+                                                                    <i class="bi bi-person-fill-x text-center" style="font-size: 25px;"></i>
+                                                                </div>
+                                                                <div class="col-10" style="width: 100% !important;">
+                                                                    Engeli Kaldır
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                        
+                                                    </form>
+                                                <% } %>
+                                                <% if (!user.isBlocked) { %>                                             
+                                                    <form action="/admin/user/block/<%= user.id %>" method="post">
+                                                        <input type="hidden" name="userId" value="<%= user.id %>">
+                                                        <button type="submit" class="btn delete blockBtn"><i class="bi bi-person-dash"></i> Engelle</button>
+                                                    </form>
+                                                <% } %>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

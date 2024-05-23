@@ -3868,3 +3868,168 @@
   level: 'error',
   timestamp: '22-05-2024  09:09:50'
 }
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/admin/vehicle-pages/vehicle-types.ejs:41\n' +
+    '    39|                             <select name="" id="search" class="form-select my-3" style="max-width: 200px;">\n' +
+    '    40|                                 <option value="">Kargo Türü Seç</option>\n' +
+    ' >> 41|                                 <% cargoTypes.forEach(cargoType => { %>\n' +
+    '    42|                                     <option value="<%= cargoType.cargoTypeName %>"><%= cargoType.cargoTypeName %></option>\n' +
+    '    43|                                 <% }) %>\n' +
+    '    44|                             </select>\n' +
+    '\n' +
+    'cargoTypes is not defined',
+  level: 'error',
+  timestamp: '23-05-2024  21:03:20'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/admin/role-pages/roles.ejs:36\n' +
+    '    34|                         <select name="" id="search" class="form-select my-3" style="max-width: 200px;">\n' +
+    '    35|                             <option value="">Kargo Türü Seç</option>\n' +
+    ' >> 36|                             <% cargoTypes.forEach(cargoType => { %>\n' +
+    '    37|                                 <option value="<%= cargoType.cargoTypeName %>"><%= cargoType.cargoTypeName %></option>\n' +
+    '    38|                             <% }) %>\n' +
+    '    39|                         </select>\n' +
+    '\n' +
+    'cargoTypes is not defined',
+  level: 'error',
+  timestamp: '23-05-2024  21:09:17'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:25\n' +
+    '    23|                 </ul>\n' +
+    '    24|                 <!-- advert-filter -->\n' +
+    " >> 25|                 <%- include('../partials/advert-filter-form') %>\n" +
+    '    26|                 <!-- adverts -->\n' +
+    '    27|                 <div class="row">\n' +
+    '    28|                     <div class="col-md-12">\n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-filter-form.ejs:31\n' +
+    '    29|                             <select name="" id="search" class="form-select my-3" style="max-width: 200px;">\n' +
+    '    30|                                 <option value="">Kargo Türü Seç</option>\n' +
+    ' >> 31|                                 <% cargoTypes.forEach(cargoType => { %>\n' +
+    '    32|                                     <option value="<%= cargoType.cargoTypeName %>"><%= cargoType.cargoTypeName %></option>\n' +
+    '    33|                                 <% }) %>\n' +
+    '    34|                             </select>\n' +
+    '\n' +
+    'cargoTypes is not defined',
+  level: 'error',
+  timestamp: '23-05-2024  21:31:53'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:25\n' +
+    '    23|                 </ul>\n' +
+    '    24|                 <!-- advert-filter -->\n' +
+    " >> 25|                 <%- include('../partials/advert-filter-form') %>\n" +
+    '    26|                 <!-- adverts -->\n' +
+    '    27|                 <div class="row">\n' +
+    '    28|                     <div class="col-md-12">\n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-filter-form.ejs:31\n' +
+    '    29|                             <select name="" id="search" class="form-select my-3" style="max-width: 200px;">\n' +
+    '    30|                                 <option value="">Kargo Türü Seç</option>\n' +
+    ' >> 31|                                 <% cargoTypes.forEach(cargoType => { %>\n' +
+    '    32|                                     <option value="<%= cargoType.cargoTypeName %>"><%= cargoType.cargoTypeName %></option>\n' +
+    '    33|                                 <% }) %>\n' +
+    '    34|                             </select>\n' +
+    '\n' +
+    'cargoTypes is not defined',
+  level: 'error',
+  timestamp: '23-05-2024  21:34:45'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:25\n' +
+    '    23|                 </ul>\n' +
+    '    24|                 <!-- advert-filter -->\n' +
+    " >> 25|                 <%- include('../partials/advert-filter-form') %>\n" +
+    '    26|                 <!-- adverts -->\n' +
+    '    27|                 <div class="row">\n' +
+    '    28|                     <div class="col-md-12">\n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-filter-form.ejs:31\n' +
+    '    29|                             <select name="" id="search" class="form-select my-3" style="max-width: 200px;">\n' +
+    '    30|                                 <option value="">Kargo Türü Seç</option>\n' +
+    ' >> 31|                                 <% cargoTypes.forEach(cargoType => { %>\n' +
+    '    32|                                     <option value="<%= cargoType.cargoTypeName %>"><%= cargoType.cargoTypeName %></option>\n' +
+    '    33|                                 <% }) %>\n' +
+    '    34|                             </select>\n' +
+    '\n' +
+    'cargoTypes is not defined',
+  level: 'error',
+  timestamp: '23-05-2024  21:46:07'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:25\n' +
+    '    23|                 </ul>\n' +
+    '    24|                 <!-- advert-filter -->\n' +
+    " >> 25|                 <%- include('../partials/advert-filter-form') %>\n" +
+    '    26|                 <!-- adverts -->\n' +
+    '    27|                 <div class="row">\n' +
+    '    28|                     <div class="col-md-12">\n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-filter-form.ejs:31\n' +
+    '    29|                             <select name="" id="search" class="form-select my-3" style="max-width: 200px;">\n' +
+    '    30|                                 <option value="">Kargo Türü Seç</option>\n' +
+    ' >> 31|                                 <% cargoTypes.forEach(cargoType => { %>\n' +
+    '    32|                                     <option value="<%= cargoType.cargoTypeName %>"><%= cargoType.cargoTypeName %></option>\n' +
+    '    33|                                 <% }) %>\n' +
+    '    34|                             </select>\n' +
+    '\n' +
+    'cargoTypes is not defined',
+  level: 'error',
+  timestamp: '23-05-2024  21:46:12'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:25\n' +
+    '    23|                 </ul>\n' +
+    '    24|                 <!-- advert-filter -->\n' +
+    " >> 25|                 <%- include('../partials/advert-filter-form') %>\n" +
+    '    26|                 <!-- adverts -->\n' +
+    '    27|                 <div class="row">\n' +
+    '    28|                     <div class="col-md-12">\n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-filter-form.ejs:31\n' +
+    '    29|                             <select name="" id="search" class="form-select my-3" style="max-width: 200px;">\n' +
+    '    30|                                 <option value="">Kargo Türü Seç</option>\n' +
+    ' >> 31|                                 <% cargoTypes.forEach(cargoType => { %>\n' +
+    '    32|                                     <option value="<%= cargoType.cargoTypeName %>"><%= cargoType.cargoTypeName %></option>\n' +
+    '    33|                                 <% }) %>\n' +
+    '    34|                             </select>\n' +
+    '\n' +
+    'cargoTypes is not defined',
+  level: 'error',
+  timestamp: '23-05-2024  21:48:01'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/adverts.ejs:25\n' +
+    '    23|                 </ul>\n' +
+    '    24|                 <!-- advert-filter -->\n' +
+    " >> 25|                 <%- include('../partials/advert-filter-form') %>\n" +
+    '    26|                 <!-- adverts -->\n' +
+    '    27|                 <div class="row">\n' +
+    '    28|                     <div class="col-md-12">\n' +
+    '\n' +
+    '/Users/mertalitosun/Desktop/tasitasit.comV2/views/partials/advert-filter-form.ejs:31\n' +
+    '    29|                             <select name="" id="search" class="form-select my-3" style="max-width: 200px;">\n' +
+    '    30|                                 <option value="">Kargo Türü Seç</option>\n' +
+    ' >> 31|                                 <% cargoTypes.forEach(cargoType => { %>\n' +
+    '    32|                                     <option value="<%= cargoType.cargoTypeName %>"><%= cargoType.cargoTypeName %></option>\n' +
+    '    33|                                 <% }) %>\n' +
+    '    34|                             </select>\n' +
+    '\n' +
+    'cargoTypes is not defined',
+  level: 'error',
+  timestamp: '23-05-2024  21:48:02'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/admin/vehicle-pages/vehicles.ejs:18\n' +
+    '    16|                         <select name="" id="search" class="form-select my-3" style="max-width: 200px;">\n' +
+    '    17|                             <option value="">Araç Türü Seç</option>\n' +
+    ' >> 18|                             <% vehicleTypes.forEach(vehicleType => { %>\n' +
+    '    19|                                 <option value="<%= vehicleType.vehicleTypeName %>"><%= vehicleType.vehicleTypeName %></option>\n' +
+    '    20|                             <% }) %>\n' +
+    '    21|                         </select>\n' +
+    '\n' +
+    'vehicleTypes is not defined',
+  level: 'error',
+  timestamp: '23-05-2024  21:53:15'
+}

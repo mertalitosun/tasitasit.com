@@ -12,11 +12,12 @@
             <div class="container">
                 <div class="forms">
                     <div class="card" id="card">
+                        <div class="card-header bg-secondary text-light text-center mb-3">Araç Türü Oluştur</div>
                         <div class="card-body">
                             <form action="/admin/vehicle-type/create" method="post">
                                 <div class="row">
                                     <div class="col-12 col-md-10 mt-3">
-                                        <input type="text" class="form-control text-center" name="vehicleTypeName" placeholder="Araç Türünü Girin">
+                                        <input type="text" class="form-control" name="vehicleTypeName" placeholder="Araç Türünü Girin">
                                     </div>
                                     <div class="col-12 col-md-2 mt-3">
                                         <button type="submit" class="button px-5 view" style="width: 100%;">Ekle</button>
@@ -36,6 +37,12 @@
                     <div class="card-body">
                         <!-- Table -->
                         <div class="table-responsive" id="table-responsive">
+                            <select name="" id="search" class="form-select my-3" style="max-width: 200px;">
+                                <option value="">Araç Türü Seç</option>
+                                <% vehicleTypes.forEach(vehicleType => { %>
+                                    <option value="<%= vehicleType.vehicleTypeName %>"><%= vehicleType.vehicleTypeName %></option>
+                                <% }) %>
+                            </select>
                             <table class="table table-hover table-striped  table-light mt-5" id="table">
                                 <thead class="table-primary">
                                         <th>ID</th>
@@ -48,7 +55,7 @@
                                     <% vehicleTypes.forEach(vehicleType => { %>
                                         <tr>
                                             <td class="left-text"><%= vehicleType.vehicleTypeCode%></td>
-                                            <td class="left-text"><%= vehicleType.vehicleTypeName %></td>
+                                            <td class="left-text searchArea"><%= vehicleType.vehicleTypeName %></td>
                                             <td class="left-text"><%= vehicleType.vehicles.length %></td>
                                             <td>
                                                 <div class="btns">

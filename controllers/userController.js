@@ -21,6 +21,7 @@ exports.get_adverts=async(req,res)=>{
     delete req.session.message;
     const advertType=req.params.advertType;//to show advert by user type
     const provinces=await Province.findAll();
+    const cargoTypes=await CargoType.findAll();
     let adverts;
 
     if(advertType=="customer"){
@@ -33,7 +34,8 @@ exports.get_adverts=async(req,res)=>{
         provinces: provinces,
         advertType: advertType,
         adverts: adverts,
-        message: message
+        message: message,
+        cargoTypes: cargoTypes
     });
 };
 
@@ -82,7 +84,7 @@ exports.post_filter_adverts=async (req,res)=>{
                     { startDate: { [Op.lte]: startDate } },
                     { endDate: { [Op.gte]: startDate } },
                     { isActive: true },
-                    { isDeleted: false }
+                    { isDeleted: false },
                 ]
             }, include: [{model: Cargo, include:{model:CargoType}},{model: User, attributes:["fullname"]}],order: [['createdAt', 'DESC']]
         });
@@ -95,7 +97,7 @@ exports.post_filter_adverts=async (req,res)=>{
         adverts: adverts,
         startPoint: startPoint,
         endPoint: endPoint,
-        startDate: startDate
+        startDate: startDate,
     });
 
 };
