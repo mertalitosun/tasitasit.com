@@ -4033,3 +4033,55 @@
   level: 'error',
   timestamp: '23-05-2024  21:53:15'
 }
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/admin/driver-pages/drivers.ejs:75\n' +
+    '    73|                                                                         </td>\n' +
+    '    74|                                                                         <td><%= driver.fullname %></td>\n' +
+    ' >> 75|                                                                         <td><%= vehicle.plate %></td>\n' +
+    '    76|                                                                         <td><%= driver.gender==true ? "Erkek":"Kadın" %></td>\n' +
+    '    77|                                                                 </tbody>\n' +
+    '    78|                                                             </table>\n' +
+    '\n' +
+    'vehicle is not defined',
+  level: 'error',
+  timestamp: '25-05-2024  02:14:53'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/homepage.ejs:64\n' +
+    '    62|         </div>\n' +
+    '    63|     </div>\n' +
+    " >> 64|         <%- include('..partials/footer') %>\n" +
+    "    65|     <%- include('../partials/script') %>\n" +
+    '    66| </body>\n' +
+    '    67| </html>\n' +
+    '\n' +
+    'Could not find the include file "..partials/footer"',
+  level: 'error',
+  timestamp: '25-05-2024  02:49:14'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/homepage.ejs:64\n' +
+    '    62|         </div>\n' +
+    '    63|     </div>\n' +
+    " >> 64|         <%- include('..partials/footer') %>\n" +
+    "    65|     <%- include('../partials/script') %>\n" +
+    '    66| </body>\n' +
+    '    67| </html>\n' +
+    '\n' +
+    'Could not find the include file "..partials/footer"',
+  level: 'error',
+  timestamp: '25-05-2024  02:49:25'
+}
+{
+  message: '/Users/mertalitosun/Desktop/tasitasit.comV2/views/user/homepage.ejs:64\n' +
+    '    62|         </div>\n' +
+    '    63|     </div>\n' +
+    " >> 64|         <%- include('..partials/footer') %>\n" +
+    "    65|     <%- include('../partials/script') %>\n" +
+    '    66| </body>\n' +
+    '    67| </html>\n' +
+    '\n' +
+    'Could not find the include file "..partials/footer"',
+  level: 'error',
+  timestamp: '25-05-2024  02:49:29'
+}

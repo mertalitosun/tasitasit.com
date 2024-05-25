@@ -13,13 +13,7 @@
                     <h3 class="text-center my-4"><%= title %></h3>
                     <div class="category-list-table table-responsive">
                         <div class="searcBarArea d-flex align-items-center justify-content-around">
-                            <select name="" id="search" class="form-select my-3" style="max-width: 200px;">
-                                <option value="">Profil Türü</option>
-                                <% users.forEach(user => { %>
-                                    <option value="<%= user.fullname %>"><%= user.fullname %></option>
-                                <% }) %>
-                            </select>
-
+                            
                             <select name="" id="searchRole" class="form-select my-3" style="max-width: 200px;">
                                 <option value="">Rol Adı</option>
                                 <% roles.forEach(role => { %>

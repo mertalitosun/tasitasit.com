@@ -86,7 +86,7 @@
                                                         <div class="modal-dialog">
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
-                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Araç Türü Sil</h1>
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel"><%= cargoType.cargoTypeName %> kargo türünü silmek üzeresiniz</h1>
                                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                                 </div>
                                                                 <div class="modal-body table-responsive">
@@ -102,7 +102,7 @@
                                                                             <tr>
                                                                                 <td><%= cargoType.cargoTypeCode%></td>
                                                                                 <td><%= cargoType.cargoTypeName %></td>
-                                                                                <td>0</td>
+                                                                                <td><%= cargoType.cargos.length %></td>
                                                                             </tr>
                                                                         </tbody>
                                                                     </table>

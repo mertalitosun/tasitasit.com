@@ -67,7 +67,7 @@
                                                         <div class="modal-dialog">
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
-                                                                <h1 class="modal-title fs-5" id="exampleModalLabel">... Plakalı aracı silmek üzeresiniz</h1>
+                                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><%= vehicleType.vehicleTypeName %> adlı araç türünü silmek üzeresiniz</h1>
                                                                 <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
                                                                 </div>
                                                                 <div class="modal-body table-responsive">
@@ -83,7 +83,7 @@
                                                                             <tr>
                                                                                 <td class="data"><%= vehicleType.vehicleTypeCode%></td>
                                                                                 <td class="data"><%= vehicleType.vehicleTypeName %></td>
-                                                                                <td class="data">0</td>
+                                                                                <td class="data"><%= vehicleType.vehicles.length %></td>
                                                                             </tr>
                                                                         </tbody>
                                                                     </table>

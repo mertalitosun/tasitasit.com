@@ -51,7 +51,7 @@
                                                 <div class="modal-dialog">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Araç Sil</h1>
+                                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><%= driver.fullname %> adlı şoförü silmek üzeresiniz</h1>
                                                             <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
                                                         </div>
                                                         <div class="modal-body table-responsive">
@@ -72,7 +72,11 @@
                                                                             <img src="/static/images/<%= driver.driverImg %>" alt="<%= driver.driverImg %>"style="width: 80px;">  
                                                                         </td>
                                                                         <td><%= driver.fullname %></td>
-                                                                        <td>Girilmedi</td>
+                                                                        <td>
+                                                                            <% for (let vehicle of driver.vehicles) { %>
+                                                                                <%= vehicle.plate %>
+                                                                            <% } %>
+                                                                        </td>
                                                                         <td><%= driver.gender==true ? "Erkek":"Kadın" %></td>
                                                                 </tbody>
                                                             </table>

@@ -6,17 +6,20 @@ const searchRole = document.getElementById("searchRole");
 const searchAreaRoles = document.querySelectorAll(".searchAreaRole");
 
 const filtered = (selectValue, elements) =>{
-  const filtered = selectValue.value;
-  elements.forEach(element=>{
+    const filtered = selectValue.value;
+    elements.forEach(element=>{
     element.parentElement.style.display = element.textContent.includes(filtered) ? "" : "none"
   })
+    
 }
 
-search.addEventListener("change", () => {
-  filtered(search,searchAreas)
-});
-
+if(search){
+  search.addEventListener("change", () => {
+    filtered(search,searchAreas)
+  });
+}
 searchRole.addEventListener("change", () => {
   filtered(searchRole,searchAreaRoles)
 });
+
 
