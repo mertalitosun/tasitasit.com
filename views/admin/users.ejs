@@ -12,8 +12,8 @@
                     <%- include('../partials/alert') %>
                     <h3 class="text-center my-4"><%= title %></h3>
                     <div class="category-list-table table-responsive">
-                        <div class="searcBarArea d-flex align-items-center justify-content-around">
-                            
+                        <div class="searcBarArea d-flex flex-column">
+                            <label for="" class="text-secondary">Rol Filtrele</label>
                             <select name="" id="searchRole" class="form-select my-3" style="max-width: 200px;">
                                 <option value="">Rol Adı</option>
                                 <% roles.forEach(role => { %>

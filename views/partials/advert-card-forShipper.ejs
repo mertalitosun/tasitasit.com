@@ -3,7 +3,7 @@
         <div class="row">
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button collapsed text-light" style="background-color: #f2a85a;" type="button" data-bs-toggle="collapse" data-bs-target="#advertId_<%= advert.id %>" aria-expanded="true" aria-controls="advertId_<%= advert.id %>">
-                    <%= advert.title %>  ~ <%= advert.user.fullname %>
+                    <%= advert.title %>  <span class="ms-auto"><%= advert.user.fullname %></span>
                 </button>
             </h2>
             <div class="row mx-3 my-4">
@@ -30,7 +30,7 @@
                     <p><%= advert.voyage.vehicle.vehicleType.vehicleTypeName %></p>
                 </div>
                 <div class="col-md-2">
-                    <button type="submit" class="btn btn-sm" style="background-color: #f2a85a; color: #fff;" id="advertDetailBtn" data-bs-toggle="collapse" data-bs-target="#advertId_<%= advert.id %>" aria-expanded="false" aria-controls="advertId_<%= advert.id %>">İncele</button>
+                    <button type="submit" class="btn btn-sm" style="background-color: #f2a85a; color: #fff;" id="advertDetailBtn" data-bs-toggle="collapse" data-bs-target="#advertId_<%= advert.id %>" aria-expanded="false" aria-controls="advertId_<%= advert.id %>">Detayları Göster</button>
                 </div>
             </div>
         </div>

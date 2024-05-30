@@ -45,9 +45,7 @@
                                     </td>
                                     <td class="endPoint">
                                         <% const foundDistrictEnd = districts.find(district => district.id == advert.endDistrict); %>
-                                        <b>
                                             <%- foundDistrictEnd ? `${foundDistrictEnd.name}, <b>${foundDistrictEnd.province.name}</b>` : "Bulunamadı"; %>
-                                        </b>
                                     </td>
                                     <td><span class="startDate"><%= advert.startDate %></span>
                                         <i class="fa-solid fa-arrow-right"></i>
