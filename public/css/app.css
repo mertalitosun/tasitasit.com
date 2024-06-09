@@ -45,12 +45,13 @@ body{
 }
 
 
-.nav-link .button{
+.nav-link .button,#signUpBtn{
+    color: #fff;
     background: linear-gradient(90deg,#ffde59,#ff914d);
     padding: 10px 30px;
-    border-radius: 50px;
     opacity: .8;
     transition: .5s;
+    border: none;
 }
 .nav-link .button:hover{
     opacity: 1;

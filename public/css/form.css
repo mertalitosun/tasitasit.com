@@ -12,11 +12,10 @@
 .card form .row{
     margin-bottom: 2rem;
 }
-.forms .row .button, .button{ 
+.forms .row .button{ 
     color: #fff;
     background: linear-gradient(90deg,#ffde59,#ff914d);
     padding: 10px 30px;
-    border-radius: 50px;
     opacity: .8;
     transition: .5s;
     border: none;
@@ -110,6 +109,7 @@ input:focus{
 .blockBtn{
     font-size: 16px !important;
 }
+
 /* copy text from input */
 .copy{
     cursor: pointer;

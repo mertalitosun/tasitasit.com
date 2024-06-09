@@ -4085,3 +4085,13 @@
   level: 'error',
   timestamp: '25-05-2024  02:49:29'
 }
+{
+  message: "Şoför resmi güncellendi ancak eski şoför resmi silinemedi. Silinemeyen resim: driver-1.jpeg,Error: ENOENT: no such file or directory, unlink './public/images/driver-1.jpeg'",
+  level: 'error',
+  timestamp: '10-06-2024  00:37:33'
+}
+{
+  message: "Şoför resmi güncellendi ancak eski şoför resmi silinemedi. Silinemeyen resim: defaultDriver.jpg,Error: ENOENT: no such file or directory, unlink './public/images/defaultDriver.jpg'",
+  level: 'error',
+  timestamp: '10-06-2024  00:42:45'
+}
